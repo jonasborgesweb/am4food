@@ -14,7 +14,16 @@ export const Container = styled.button`
   font-weight: 500;
   margin-top: 16px;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   &:hover {
     background-color: ${shade(0.2, `${colors.black}`)};
+  }
+
+  svg{
+    margin-right: 1rem;
   }
 `;
